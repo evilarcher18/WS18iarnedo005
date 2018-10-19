@@ -5,10 +5,7 @@
 </html>
 <?php
 
-	$server = "localhost";
-	$user = "root";
-	$pass = "";
-	$database = "quizz";
+	include 'dbConfig.php';
 
 	$connection = new mysqli($server, $user, $pass, $database);
 
