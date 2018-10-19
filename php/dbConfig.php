@@ -9,9 +9,9 @@ if ($lokal) {
    $pass="";               // eta ez da pasahitzarik jartzen
    $database="quiz";
 } else {
-   $zerbitzaria="localhost";
-   $erabiltzailea="idxxx_hodeikoErabiltzailea";
-   $gakoa="ZuenPasahitza";  // GitHub-en eremu hau EZABATU
-   $db="idxxx_quiz";        // hodeiko db izena: hodeiko aurrizkia + zuek adierazitako db izena atzizki moduan
+   $server="localhost";
+   $user="id7215556_root";
+   $pass="wst131819";  // GitHub-en eremu hau EZABATU
+   $database="id7215556_quizz";        // hodeiko db izena: hodeiko aurrizkia + zuek adierazitako db izena atzizki moduan
 }
 ?>
